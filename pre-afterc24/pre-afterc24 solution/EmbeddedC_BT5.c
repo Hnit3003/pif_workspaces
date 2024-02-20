@@ -30,8 +30,14 @@ void infor_input(struct infor *stu_infor)
     scanf("%d", &stu_infor->course);
 }
 
-void infor_output(struct infor *stu_infor)
+
+/* Declaration function */
+void age_output(int age);
+
+/* Definition function */
+void age_output(int age)
 {
-    printf("\ninfor_output function\n");
-    printf("Name: %s\tMSSV: %s\tCourse: C%d", stu_infor->name, stu_infor->mssv, stu_infor->course);
+    printf("Age: %d", age);
 }
+
+
